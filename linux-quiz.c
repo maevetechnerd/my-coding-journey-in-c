@@ -27,18 +27,18 @@ int main()
     }
 
     printf("Question 2\n");
-    printf("What year did Linux start being worked on?\n1. 1990\n 2. 1991\n 3. 1994\nAnswer: ");
+    printf("What year did Linux start being worked on?\n1. 1990\n2. 1991\n3. 1994\nAnswer: ");
     scanf("%d", &choices);
 
-    if (choices == 1) {
-        printf("Correct! Linux started being worked on in 1990.\n\n");
+    if (choices == 2) {
+        printf("Correct! Linux started being worked on in 1991.\n\n");
     }
     else {
-    printf("Incorrect! It was 1990.\n\n");
+    printf("Incorrect! It was 1991.\n\n");
     }
 
     printf("Question 3\n");
-    printf("In what year did the first prototype come out and the first official version?\n1. 1992 prototype, 1993 first version\n2. 1991 prototype, 1994 first version\n3.1993 prototype, 1996 first version\nAnswer: ");
+    printf("In what year did the first prototype come out and the first official version?\n1. 1992 prototype, 1993 first version\n2. 1991 prototype, 1994 first version\n3. 1993 prototype, 1996 first version\nAnswer: ");
     scanf("%d", &choices);
 
     if (choices == 2) {
@@ -49,8 +49,40 @@ int main()
     }
     
     printf("Question 4\n");
-    printf("Under construction.\n\n");
-    
+    printf("Linux is written only in C\n1. False, it's written in C and Assembly\n2. True, it is only written in C\nAnswer: ");
+    scanf("%d", &choices);
+
+    if (choices == 1) {
+        printf("Correct! It is false. Linux is written in C and Assembly.\n\n");
+    }
+    else {
+        printf("Incorrect! It is not true.\n\n");
+    }
+    printf("Question 5\n");
+    printf("Which Distros came out 1994\n1. Arch Linux and Gentoo Linux\n2. Ubuntu and Fedora Linux\n3. Slackware and Debian Linux\nAnswer: ");
+    scanf("%d", &choices);
+
+    if (choices == 3) {
+        printf("Correct! It was Slackware and Debian. Slackware being the first to come out.\n\n");
+    }
+    else {
+        printf("Incorrect! It was Slackware and Debian.\n\n");
+    }
+
+    printf("Question 6\n");
+    printf("In 1996 there was a competition for who's artwork would become Linux's mascot. Who won and became the Linux mascot\n1. Xenia the Linux Fox\n2. Tux the Penguin\n3. Rocky Raccoon\nAnswer: ");
+    scanf("%d", &choices);
+
+    if (choices == 2) {
+        printf("Correct! It was Tux the Penguin who won! Though I wish Xenia won.\n\n");
+    }
+    else {
+        printf("Incorrect! It was Tux who won. Also, if you guessed Rocky Raccoon, look up on google, he is a Minix mascot.\n\n");
+    }
+
+    printf("Question 7\n");
+    printf("Under construction\n\n");
+
     printf("Thank you for taking this quiz!\nI will be adding more stuff to the quiz tomorrow!\n");
     return 0;
 }
