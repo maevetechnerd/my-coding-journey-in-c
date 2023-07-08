@@ -80,9 +80,43 @@ int main()
         printf("Incorrect! It was Tux who won. Also, if you guessed Rocky Raccoon, look up on google, he is a Minix mascot.\n\n");
     }
 
-    printf("Question 7\n");
-    printf("Under construction\n\n");
+    printf("Question 7\nModern day Linux\n");
+    printf("Linux had a change in it's kernel. There is a new programming language which entered. So besides C and assembly. What Is the new programming language that they write the kernel with\n1. Zig\n2. Java\n3. Rust\nAnswer: ");
+    scanf("%d", &choices);
 
-    printf("Thank you for taking this quiz!\nI will be adding more stuff to the quiz tomorrow!\n");
+    if (choices == 3) {
+        printf("Correct! Rust is the new programming language they added to Linux.\n\n");
+    }
+    else {
+        printf("Incorrect! It was Rust which got added to the kernel.\n\n");
+    }
+
+    printf("Question 8\n");
+    printf("There have recently been drama in the Linux community. There is one Linux corporation which have got infected by IBM. The cause of this made a Linux distro have it's source code paywalled, which violates the GNU liscense. Which Linux distro and corporation was this\n1. Red Hat\n2. Canonical/Ubuntu\n3. System76/Pop!_OS\nAnswer: ");
+    scanf("%d", &choices);
+
+    if (choices == 1) {
+        printf("Correct! Red Hat is the distro and corporation that closed the source.\n\n");
+    }
+    else {
+        printf("Incorrect! It was Red Hat.\n\n");
+    }
+
+    printf("Question 9\n");
+    printf("What is Linus Torvalds favorite programming socks\n1. Pink with white stripes\n2. Black with white stripes\n3. Blue with white stripes\nAnswer: ");
+    scanf("%d", &choices);
+
+    if (choices == 1) {
+        printf("Correct! It is Pink with white stripes.\n\n");
+    }
+    else {
+        printf("Incorrect! It is Pink with white stripes.\n\n");
+    }
+
+    printf("Question 10\n");
+    printf("What is your favorite Linus quote or rant\nAnswer: ");
+    scanf("%100s", faveQuoteOrRant);
+
+    printf("\n\nThank you for taking this quiz! If there is anything I can improve, do tell.\n\n");
     return 0;
 }
