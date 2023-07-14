@@ -6,7 +6,7 @@
  */
 
 
-/* This struct was is used for cleaner code. */
+/* This struct is used for cleaner code. */
 struct person {
     char name[25];
     int age;
